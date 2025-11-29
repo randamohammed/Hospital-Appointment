@@ -34,14 +34,14 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.taUesrmanagement = new System.Windows.Forms.TabPage();
-            this.urctListUser1 = new SmartAppointment.User.Controls.urctListUser();
             this.taDoctor = new System.Windows.Forms.TabPage();
-            this.urtDoctorList1 = new SmartAppointment.Doctor.Controls.urtDoctorList();
             this.taPatient = new System.Windows.Forms.TabPage();
-            this.urtPatienList1 = new SmartAppointment.Patient.Controls.urtPatienList();
             this.taAppoitement = new System.Windows.Forms.TabPage();
             this.taPayment = new System.Windows.Forms.TabPage();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.urtPatienList1 = new SmartAppointment.Patient.Controls.urtPatienList();
+            this.urtDoctorList1 = new SmartAppointment.Doctor.Controls.urtDoctorList();
+            this.urctListUser1 = new SmartAppointment.User.Controls.urctListUser();
             this.TabOpretions.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -122,13 +122,6 @@
             this.taUesrmanagement.Text = "Uesr management";
             this.taUesrmanagement.UseVisualStyleBackColor = true;
             // 
-            // urctListUser1
-            // 
-            this.urctListUser1.Location = new System.Drawing.Point(6, 6);
-            this.urctListUser1.Name = "urctListUser1";
-            this.urctListUser1.Size = new System.Drawing.Size(842, 467);
-            this.urctListUser1.TabIndex = 0;
-            // 
             // taDoctor
             // 
             this.taDoctor.Controls.Add(this.urtDoctorList1);
@@ -140,13 +133,6 @@
             this.taDoctor.Text = "Doctoer management";
             this.taDoctor.UseVisualStyleBackColor = true;
             // 
-            // urtDoctorList1
-            // 
-            this.urtDoctorList1.Location = new System.Drawing.Point(3, 3);
-            this.urtDoctorList1.Name = "urtDoctorList1";
-            this.urtDoctorList1.Size = new System.Drawing.Size(912, 516);
-            this.urtDoctorList1.TabIndex = 0;
-            // 
             // taPatient
             // 
             this.taPatient.Controls.Add(this.urtPatienList1);
@@ -157,13 +143,6 @@
             this.taPatient.TabIndex = 3;
             this.taPatient.Text = "Patien management";
             this.taPatient.UseVisualStyleBackColor = true;
-            // 
-            // urtPatienList1
-            // 
-            this.urtPatienList1.Location = new System.Drawing.Point(3, 4);
-            this.urtPatienList1.Name = "urtPatienList1";
-            this.urtPatienList1.Size = new System.Drawing.Size(899, 516);
-            this.urtPatienList1.TabIndex = 0;
             // 
             // taAppoitement
             // 
@@ -202,6 +181,27 @@
             this.imageList1.Images.SetKeyName(10, "pay.png");
             this.imageList1.Images.SetKeyName(11, "examination.png");
             // 
+            // urtPatienList1
+            // 
+            this.urtPatienList1.Location = new System.Drawing.Point(10, 7);
+            this.urtPatienList1.Name = "urtPatienList1";
+            this.urtPatienList1.Size = new System.Drawing.Size(899, 516);
+            this.urtPatienList1.TabIndex = 0;
+            // 
+            // urtDoctorList1
+            // 
+            this.urtDoctorList1.Location = new System.Drawing.Point(9, 9);
+            this.urtDoctorList1.Name = "urtDoctorList1";
+            this.urtDoctorList1.Size = new System.Drawing.Size(912, 516);
+            this.urtDoctorList1.TabIndex = 0;
+            // 
+            // urctListUser1
+            // 
+            this.urctListUser1.Location = new System.Drawing.Point(6, 6);
+            this.urctListUser1.Name = "urctListUser1";
+            this.urctListUser1.Size = new System.Drawing.Size(842, 467);
+            this.urctListUser1.TabIndex = 0;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -232,8 +232,8 @@
         public System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.TabPage taPayment;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private Patient.Controls.urtPatienList urtPatienList1;
         private User.Controls.urctListUser urctListUser1;
         private Doctor.Controls.urtDoctorList urtDoctorList1;
-        private Patient.Controls.urtPatienList urtPatienList1;
     }
 }

@@ -69,7 +69,7 @@
             // 
             // uctrAddOrUpdatePatient1
             // 
-            this.uctrAddOrUpdatePatient1.Location = new System.Drawing.Point(13, 12);
+            this.uctrAddOrUpdatePatient1.Location = new System.Drawing.Point(12, 9);
             this.uctrAddOrUpdatePatient1.Name = "uctrAddOrUpdatePatient1";
             this.uctrAddOrUpdatePatient1.Size = new System.Drawing.Size(622, 242);
             this.uctrAddOrUpdatePatient1.TabIndex = 4;
