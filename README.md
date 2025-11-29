@@ -66,6 +66,8 @@ This project is still under development, and new features such as appointment sc
 
 ## 🚀 How to Run the Project
 
+To ensure custom User Controls (Doctor/Patient screens, etc.) load correctly without Designer errors, it is essential to build the entire solution after cloning.
+
 1. Clone the repository  
 2. Restore SQL database (included in `/Database/`)  
 3. Open the solution in Visual Studio  
