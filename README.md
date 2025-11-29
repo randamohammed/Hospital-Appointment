@@ -9,72 +9,84 @@
 ---
 
 ### 📌 Project Screenshot
-> *(You can add an image here after uploading it to the repository)*
 
-Example:
-```md
 ![App Screenshot](Images/SinginImage.jpg)
-📖 Overview
+
+---
+
+## 📖 Overview
+
 Smart Appointment is a desktop application designed to help clinics and hospitals manage patients, doctors, and appointment schedules easily.
+
 The system provides a simple and organized workflow using a familiar Windows interface.
 
 This project is still under development, and new features such as appointment scheduling and payment management are currently being added.
 
-✨ Core Features (Current)
-✔️ User authentication and basic role management
+---
 
-✔️ Manage doctors and their specialization
+## ✨ Core Features (Current)
 
-✔️ Manage patient records
-
-✔️ Store and retrieve data using SQL Server
-
-✔️ Layered project structure for clean architecture
-
-🚧 Upcoming Features (Work in Progress)
-⏳ Add appointment scheduling system
-
-⏳ Add payments and billing module
-
-🔜 UI improvements and error validation
+✔️ User authentication and basic role management  
+✔️ Manage doctors and their specialization  
+✔️ Manage patient records  
+✔️ Store and retrieve data using SQL Server  
+✔️ Layered project structure for clean architecture  
 
 ---
 
-🛠️ Technologies Used
-Technology	Purpose
-C# WinForms	User Interface
-ADO.NET	Data Access
-SQL Server	Database
-Layered Architecture	Project structure and maintainability
+## 🚧 Upcoming Features (Work in Progress)
+
+⏳ Add appointment scheduling system  
+⏳ Add payments and billing module  
+🔜 UI improvements and error validation  
 
 ---
 
-🧱 Project Structure
-pgsql
-Copy code
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|-----------|---------|
+| C# WinForms | User Interface |
+| ADO.NET | Data Access |
+| SQL Server | Database |
+| Layered Architecture | Maintainability & clean project structure |
+
+---
+
+## 🧱 Project Structure
+
 📦 SmartAppointment
- ┣ 📂 Presentation Layer (WinForms)
- ┣ 📂 Business Logic Layer
- ┣ 📂 Data Access Layer (ADO.NET)
- ┗ 📂 SQL Database
-🚀 How to Run the Project
-Clone the repository
+┣ 📂 Presentation Layer (WinForms)
+┣ 📂 Business Logic Layer
+┣ 📂 Data Access Layer (ADO.NET)
+┗ 📂 SQL Database
 
-Restore SQL database (included in /Database/ folder when added)
 
-Open solution in Visual Studio
+---
 
-Update connection string if needed
+## 🚀 How to Run the Project
 
-![Screenshot](Images/MinScreen.jpg)
+1. Clone the repository  
+2. Restore SQL database (included in `/Database/`)  
+3. Open the solution in Visual Studio  
+4. Update the connection string if needed  
+5. Run & enjoy 🎉  
+
+---
+
+### 📷 Additional Screenshots
+
+![Screenshot](Images/MinScreen.jpg)  
 ![Screenshot](Images/DoctorList.jpg)
 
-Run & enjoy 🎉
+---
 
-📌 Contribution
+## 📌 Contribution
 
-The project is open to developing new ideas.
+The project is open for improvements and collaboration.
 
-If you have a suggestion, you are very welcome to open an Issue or Pull Request.
+If you have suggestions or ideas, feel free to open an **Issue** or submit a **Pull Request**.
 
-⭐ If you find this project helpful, please give it a Star ⭐
+---
+
+⭐ If you find this project helpful, don’t forget to give it a **Star** ⭐
