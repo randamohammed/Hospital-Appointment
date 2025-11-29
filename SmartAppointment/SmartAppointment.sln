@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartAppointment", "SmartAppointment.csproj", "{23C2BEBE-16F2-4285-BCFA-E157D7EECF68}"
+	ProjectSection(ProjectDependencies) = postProject
+		{18CC23AB-0D30-4E5C-A0C3-1741114DDD07} = {18CC23AB-0D30-4E5C-A0C3-1741114DDD07}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Databusiness", "..\SmarAppontmentBessunies\Databusiness\Databusiness.csproj", "{A3580452-8567-4F1C-A5C1-2F5F2872F5BB}"
 EndProject

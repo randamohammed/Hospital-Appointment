@@ -24,7 +24,7 @@ namespace SmartAppointment
 
         private void urctListUser1_Click(object sender, EventArgs e)
         {
-            urctListUser1.Loda();
+            //urctListUser1.Loda();
            
         }
 
@@ -47,7 +47,7 @@ namespace SmartAppointment
 
             if (oldTab == taUesrmanagement)
             {
-                    urctListUser1.Clear(); 
+                  urctListUser1.Clear(); 
             }
             else if (oldTab == taPatient)
             {
@@ -68,7 +68,7 @@ namespace SmartAppointment
             var currentTab = TabOpretions.SelectedTab;
             if (currentTab == taUesrmanagement)
             {
-                urctListUser1.Loda();
+               urctListUser1.Loda();
             }
             else if (currentTab == taPatient)
             {

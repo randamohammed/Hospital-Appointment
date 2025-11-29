@@ -201,6 +201,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User\Controls\urctListUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User\Controls\urctListUser.Designer.cs">
+      <DependentUpon>urctListUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="User\frmAddOrUpdeta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -212,12 +218,6 @@
     </Compile>
     <Compile Include="User\frmSingin.Designer.cs">
       <DependentUpon>frmSingin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="User\Controls\urctListUser.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="User\Controls\urctListUser.Designer.cs">
-      <DependentUpon>urctListUser.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Appointment\fromAddOrUpdateAppointment.resx">
       <DependentUpon>fromAddOrUpdateAppointment.cs</DependentUpon>
@@ -265,14 +265,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="User\Controls\urctListUser.resx">
+      <DependentUpon>urctListUser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="User\frmAddOrUpdeta.resx">
       <DependentUpon>frmAddOrUpdeta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User\frmSingin.resx">
       <DependentUpon>frmSingin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="User\Controls\urctListUser.resx">
-      <DependentUpon>urctListUser.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
