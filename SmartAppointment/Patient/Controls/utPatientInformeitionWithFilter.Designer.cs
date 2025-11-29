@@ -125,17 +125,17 @@
             // 
             // usrtPatientDetails1
             // 
-            this.usrtPatientDetails1.Location = new System.Drawing.Point(3, 149);
+            this.usrtPatientDetails1.Location = new System.Drawing.Point(4, 145);
             this.usrtPatientDetails1.Name = "usrtPatientDetails1";
-            this.usrtPatientDetails1.Size = new System.Drawing.Size(625, 251);
-            this.usrtPatientDetails1.TabIndex = 0;
+            this.usrtPatientDetails1.Size = new System.Drawing.Size(621, 251);
+            this.usrtPatientDetails1.TabIndex = 2;
             // 
             // utPatientInformeitionWithFilter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.guna2GroupBox1);
             this.Controls.Add(this.usrtPatientDetails1);
+            this.Controls.Add(this.guna2GroupBox1);
             this.Name = "utPatientInformeitionWithFilter";
             this.Size = new System.Drawing.Size(628, 408);
             this.Load += new System.EventHandler(this.utPatientInformeitionWithFilter_Load);
@@ -147,13 +147,12 @@
         }
 
         #endregion
-
-        private usrtPatientDetails usrtPatientDetails1;
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox1;
         private Guna.UI2.WinForms.Guna2Button txAddNew;
         private Guna.UI2.WinForms.Guna2Button buSearshPatient;
         private Guna.UI2.WinForms.Guna2TextBox txNationalID;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private usrtPatientDetails usrtPatientDetails1;
     }
 }

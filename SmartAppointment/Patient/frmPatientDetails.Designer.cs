@@ -51,10 +51,10 @@
             // 
             // usrtPatientDetails1
             // 
-            this.usrtPatientDetails1.Location = new System.Drawing.Point(7, 3);
+            this.usrtPatientDetails1.Location = new System.Drawing.Point(6, -1);
             this.usrtPatientDetails1.Name = "usrtPatientDetails1";
-            this.usrtPatientDetails1.Size = new System.Drawing.Size(621, 254);
-            this.usrtPatientDetails1.TabIndex = 0;
+            this.usrtPatientDetails1.Size = new System.Drawing.Size(621, 251);
+            this.usrtPatientDetails1.TabIndex = 3;
             // 
             // frmPatientDetails
             // 
@@ -62,8 +62,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(634, 302);
-            this.Controls.Add(this.butclose);
             this.Controls.Add(this.usrtPatientDetails1);
+            this.Controls.Add(this.butclose);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmPatientDetails";
             this.ShowInTaskbar = false;
@@ -74,8 +74,7 @@
         }
 
         #endregion
-
-        private usrtPatientDetails usrtPatientDetails1;
         private Guna.UI2.WinForms.Guna2Button butclose;
+        private usrtPatientDetails usrtPatientDetails1;
     }
 }

@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.butSave = new Guna.UI2.WinForms.Guna2Button();
-            this.uctrAddOrUpdatePatient1 = new SmartAppointment.Patient.uctrAddOrUpdatePatient();
             this.butClose = new Guna.UI2.WinForms.Guna2Button();
+            this.uctrAddOrUpdatePatient1 = new SmartAppointment.Patient.uctrAddOrUpdatePatient();
             this.SuspendLayout();
             // 
             // butSave
@@ -50,13 +50,6 @@
             this.butSave.Text = "Save";
             this.butSave.Click += new System.EventHandler(this.butSave_Click);
             // 
-            // uctrAddOrUpdatePatient1
-            // 
-            this.uctrAddOrUpdatePatient1.Location = new System.Drawing.Point(4, 3);
-            this.uctrAddOrUpdatePatient1.Name = "uctrAddOrUpdatePatient1";
-            this.uctrAddOrUpdatePatient1.Size = new System.Drawing.Size(634, 249);
-            this.uctrAddOrUpdatePatient1.TabIndex = 2;
-            // 
             // butClose
             // 
             this.butClose.BorderRadius = 10;
@@ -74,13 +67,20 @@
             this.butClose.Text = "Close";
             this.butClose.Click += new System.EventHandler(this.butClose_Click);
             // 
+            // uctrAddOrUpdatePatient1
+            // 
+            this.uctrAddOrUpdatePatient1.Location = new System.Drawing.Point(13, 12);
+            this.uctrAddOrUpdatePatient1.Name = "uctrAddOrUpdatePatient1";
+            this.uctrAddOrUpdatePatient1.Size = new System.Drawing.Size(622, 242);
+            this.uctrAddOrUpdatePatient1.TabIndex = 4;
+            // 
             // AddOrUpdatepatient
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(650, 343);
-            this.Controls.Add(this.butClose);
             this.Controls.Add(this.uctrAddOrUpdatePatient1);
+            this.Controls.Add(this.butClose);
             this.Controls.Add(this.butSave);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -95,7 +95,7 @@
 
         #endregion
         private Guna.UI2.WinForms.Guna2Button butSave;
-        private uctrAddOrUpdatePatient uctrAddOrUpdatePatient1;
         private Guna.UI2.WinForms.Guna2Button butClose;
+        private uctrAddOrUpdatePatient uctrAddOrUpdatePatient1;
     }
 }
