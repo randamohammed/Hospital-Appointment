@@ -49,7 +49,7 @@
             this.butSave = new Guna.UI2.WinForms.Guna2Button();
             this.butClose = new Guna.UI2.WinForms.Guna2Button();
             this.butNext = new Guna.UI2.WinForms.Guna2Button();
-            this.utPatientInformeitionWithFilter1 = new SmartAppointment.Patient.utPatientInformeitionWithFilter();
+            this.utPatientInformeitionWithFilter1 = new SmartAppointment.Patient.Controls.utPatientInformeitionWithFilter();
             this.PatientInnformation.SuspendLayout();
             this.tapPatientInnformation.SuspendLayout();
             this.tapAppointmentData.SuspendLayout();
@@ -369,7 +369,7 @@
         private Guna.UI2.WinForms.Guna2TabControl PatientInnformation;
         private System.Windows.Forms.TabPage tapPatientInnformation;
         private System.Windows.Forms.TabPage tapAppointmentData;
-        private Patient.utPatientInformeitionWithFilter utPatientInformeitionWithFilter1;
+        private Patient.Controls.utPatientInformeitionWithFilter utPatientInformeitionWithFilter1;
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel18;
         private System.Windows.Forms.ComboBox comdocters;

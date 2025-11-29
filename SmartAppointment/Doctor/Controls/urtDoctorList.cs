@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SmartAppointment.Doctor
+namespace SmartAppointment.Doctor.Controls
 {
     public partial class urtDoctorList : UserControl
     {

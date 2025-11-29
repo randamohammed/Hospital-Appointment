@@ -1,4 +1,4 @@
-﻿namespace SmartAppointment.Patient
+﻿namespace SmartAppointment.Patient.Controls
 {
     partial class uctrAddOrUpdatePatient
     {

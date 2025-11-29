@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SmartAppointment.User
+namespace SmartAppointment.User.Controls
 {
     public partial class urctListUser : UserControl
     {

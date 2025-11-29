@@ -1,4 +1,4 @@
-﻿namespace SmartAppointment.User
+﻿namespace SmartAppointment.User.Controls
 {
     partial class urctListUser
     {

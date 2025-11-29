@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SmartAppointment.Patient
+namespace SmartAppointment.Patient.Controls
 {
     public partial class utPatientInformeitionWithFilter : UserControl
     {

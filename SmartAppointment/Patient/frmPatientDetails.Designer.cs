@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.butclose = new Guna.UI2.WinForms.Guna2Button();
-            this.usrtPatientDetails1 = new SmartAppointment.Patient.usrtPatientDetails();
+            this.usrtPatientDetails1 = new SmartAppointment.Patient.Controls.usrtPatientDetails();
             this.SuspendLayout();
             // 
             // butclose
@@ -75,6 +75,6 @@
 
         #endregion
         private Guna.UI2.WinForms.Guna2Button butclose;
-        private usrtPatientDetails usrtPatientDetails1;
+        private Controls.usrtPatientDetails usrtPatientDetails1;
     }
 }

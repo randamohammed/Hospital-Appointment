@@ -1,4 +1,4 @@
-﻿namespace SmartAppointment.Patient
+﻿namespace SmartAppointment.Patient.Controls
 {
     partial class utPatientInformeitionWithFilter
     {
@@ -35,7 +35,7 @@
             this.txNationalID = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.usrtPatientDetails1 = new SmartAppointment.Patient.usrtPatientDetails();
+            this.usrtPatientDetails1 = new SmartAppointment.Patient.Controls.usrtPatientDetails();
             this.guna2GroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();

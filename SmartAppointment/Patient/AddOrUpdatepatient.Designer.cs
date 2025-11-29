@@ -30,7 +30,7 @@
         {
             this.butSave = new Guna.UI2.WinForms.Guna2Button();
             this.butClose = new Guna.UI2.WinForms.Guna2Button();
-            this.uctrAddOrUpdatePatient1 = new SmartAppointment.Patient.uctrAddOrUpdatePatient();
+            this.uctrAddOrUpdatePatient1 = new SmartAppointment.Patient.Controls.uctrAddOrUpdatePatient();
             this.SuspendLayout();
             // 
             // butSave
@@ -96,6 +96,6 @@
         #endregion
         private Guna.UI2.WinForms.Guna2Button butSave;
         private Guna.UI2.WinForms.Guna2Button butClose;
-        private uctrAddOrUpdatePatient uctrAddOrUpdatePatient1;
+        private Controls.uctrAddOrUpdatePatient uctrAddOrUpdatePatient1;
     }
 }

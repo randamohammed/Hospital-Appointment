@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using TheArtOfDevHtmlRenderer.Adapters;
 
-namespace SmartAppointment.Patient
+namespace SmartAppointment.Patient.Controls
 {
     public partial class usrtPatientDetails : UserControl
     {

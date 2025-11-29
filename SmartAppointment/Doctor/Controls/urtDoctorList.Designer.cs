@@ -1,4 +1,4 @@
-﻿namespace SmartAppointment.Doctor
+﻿namespace SmartAppointment.Doctor.Controls
 {
     partial class urtDoctorList
     {
